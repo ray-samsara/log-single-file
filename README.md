@@ -4,6 +4,18 @@ This is a fork of rxi's log.c which packs it's core logic into just one file, si
 
 The original contents of the README is still retained with no change.
 
+## Using log.h
+```c
+#define USE_LOG_H
+#include "log.h"
+
+int main()
+{
+  log_info("this is a log");
+  return 0;
+}
+```
+
 <hr>
 
 # log.c
