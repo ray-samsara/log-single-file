@@ -1,3 +1,11 @@
+# log-single-file
+This is a fork of rxi's log.c which packs it's core logic into just one file, similar to how Sean Barret's
+**stb**s function.
+
+The original contents of the README is still retained with no change.
+
+<hr>
+
 # log.c
 A simple logging library implemented in C99
 
